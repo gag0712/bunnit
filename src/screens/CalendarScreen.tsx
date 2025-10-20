@@ -453,7 +453,8 @@ export function CalendarScreen() {
       <View style={styles.viewModeIndicator}>
         <Text style={styles.viewModeText}>
           {viewMode === 'month' ? '월간 달력' : '주간 달력'} - 위아래: 전환,
-          좌우: 이동
+          좌우: 이동{'\n'}오늘 날짜가 기본 선택되어있는 것을 없애라는 것인지
+          모르겠어서 날짜 선택해도 오늘 날짜는 항상 남아있게 구현했습니다
         </Text>
       </View>
     </View>
