@@ -1751,6 +1751,53 @@ PODS:
     - React-utils (= 0.82.0)
     - ReactNativeDependencies
   - ReactNativeDependencies (0.82.0)
+  - RNScreens (4.17.1):
+    - hermes-engine
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-Core-prebuilt
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-RCTImage
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - ReactNativeDependencies
+    - RNScreens/common (= 4.17.1)
+    - Yoga
+  - RNScreens/common (4.17.1):
+    - hermes-engine
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-Core-prebuilt
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-RCTImage
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - ReactNativeDependencies
+    - Yoga
   - Yoga (0.0.0)
 
 DEPENDENCIES:
@@ -1824,6 +1871,7 @@ DEPENDENCIES:
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - ReactNativeDependencies (from `../node_modules/react-native/third-party-podspecs/ReactNativeDependencies.podspec`)
+  - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
@@ -1966,6 +2014,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   ReactNativeDependencies:
     :podspec: "../node_modules/react-native/third-party-podspecs/ReactNativeDependencies.podspec"
+  RNScreens:
+    :path: "../node_modules/react-native-screens"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -2039,7 +2089,8 @@ SPEC CHECKSUMS:
   ReactCodegen: dca190d2327cc11211da69815f6884e72be5d7e6
   ReactCommon: eb58440fe1d99b0bcf1341158c4e62d715e16e5d
   ReactNativeDependencies: 1b2d8e7c970b245dbc0daa4b9e770de205bc4230
-  Yoga: 1f093bc30adea87fd3a14ceaa0b2cb46468d06f9
+  RNScreens: db8ce1da5a1423fca091b856ac7fecec6596ddb8
+  Yoga: bd0e8154719df276d35c96367c96fbf4bbfc24fb
 
 PODFILE CHECKSUM: f612072a44142c823e78631be5d62053119da495
 
